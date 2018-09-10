@@ -5,8 +5,7 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(planeteer) 
-  # Your code 
-  # new_planetteer = []
+  # new_planetteer = [] 
   planeteer.map do |planet| 
    planet.capitalize + "!"
 end 

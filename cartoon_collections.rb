@@ -9,11 +9,12 @@ def summon_captain_planet(planeteer)
   new_planetteer = []
   planeteer.collect do |planet|new_planetteer<< planet.capitalize + "!"
 end 
+
 new_planetteer
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(caLL)
+  return false unless call.length > 4
 end
 
 def find_the_cheese# code an argument here

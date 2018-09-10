@@ -13,8 +13,8 @@ end
 new_planetteer
 end
 
-def long_planeteer_calls(caLL)
-  return false unless call.length > 4
+def long_planeteer_calls(caLLs)
+  return false unless calls.length > 4
 end
 
 def find_the_cheese# code an argument here

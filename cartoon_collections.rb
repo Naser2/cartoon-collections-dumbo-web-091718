@@ -14,9 +14,7 @@ new_planetteer
 end
 
 def long_planeteer_calls(array)
-  array.count(3) ? 
-  
- return false 
+  array.count(3) ? :false 
 
 end
 

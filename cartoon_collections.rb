@@ -27,5 +27,6 @@ def find_the_cheese(array)
   if array[i].start.include(cheese)
     return i 
   end 
+  end 
   
 end

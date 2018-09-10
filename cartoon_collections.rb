@@ -20,10 +20,10 @@ end
 
 def find_the_cheese(array)
   # the array below is here to help
-  # cheese_types = ["cheddar", "gouda", "camembert"]
+  cheese_types = ["cheddar", "gouda", "camembert"]
  
   array.find do |i| 
-  if array.include?(i)
+  if cheese_types.include?(i)
     return i
   # else 
   #   %w(found only ham, cellphone, and computer)

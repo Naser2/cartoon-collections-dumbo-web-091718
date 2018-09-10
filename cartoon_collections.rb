@@ -16,7 +16,7 @@ end
 def long_planeteer_calls(array)
   array.count(3) ? 
   
-: return false 
+ return false 
 
 end
 

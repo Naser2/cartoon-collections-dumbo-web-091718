@@ -22,11 +22,11 @@ def find_the_cheese(array)
   # the array below is here to help
   # cheese_types = ["cheddar", "gouda", "camembert"]
  
-  array.select do |i| 
+  array.find do |i| 
   if cheese.include?(i)
     return i
-  else 
-    w%["ham", "cellphone", "computer"]
+  # else 
+  #   %w(found only ham, cellphone, and computer)
     end 
   end 
   

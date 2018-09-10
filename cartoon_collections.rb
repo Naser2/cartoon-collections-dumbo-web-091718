@@ -6,8 +6,8 @@ end
 
 def summon_captain_planet(planeteer) 
   # Your code 
-  new_planetteer = []
-  planeteer.collect do |planet|new_planetteer<< planet.capitalize + "!"
+  # new_planetteer = []
+  planeteer.map do |planet|new_planetteer << planet.capitalize + "!"
 end 
 
 new_planetteer
@@ -18,7 +18,11 @@ def long_planeteer_calls(array)
 
 end
 
-def find_the_cheese# code an argument here
+def find_the_cheese(array)
   # the array below is here to help
   # cheese_types = ["cheddar", "gouda", "camembert"]
+ 
+  array.
+  if array.include(cheese)
+  
 end

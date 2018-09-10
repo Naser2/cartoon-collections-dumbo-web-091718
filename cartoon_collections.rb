@@ -25,8 +25,8 @@ def find_the_cheese(array)
   array.find do |i| 
   if cheese_types.include?(i)
     return i
-  # else 
-  #   %w(found only ham, cellphone, and computer)
+  else 
+    %w(found only ham, cellphone, and computer)
     end 
   end 
   

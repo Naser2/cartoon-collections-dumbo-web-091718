@@ -24,7 +24,9 @@ def find_the_cheese(array)
  
   array.select do |i| 
   if cheese.include?(i)
-    return i 
+    return i
+  else 
+    w%["ham", "cellphone", "computer"]
     end 
   end 
   

@@ -9,13 +9,11 @@ def summon_captain_planet(planeteer)
   planeteer.map do |planet| 
    planet.capitalize + "!"
 end 
-
 # new_planetteer
 end
 
 def long_planeteer_calls(array)
  array.any? { |i| i.length > 4 }
-
 end
 
 def find_the_cheese(array)

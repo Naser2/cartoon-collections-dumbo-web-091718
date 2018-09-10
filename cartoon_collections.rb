@@ -14,7 +14,8 @@ new_planetteer
 end
 
 def long_planeteer_calls(array)
-  array.length > 4 ? return  true 
+  array.count(3) ? 
+  
 : return false 
 
 end

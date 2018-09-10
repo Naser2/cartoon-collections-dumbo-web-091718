@@ -22,13 +22,10 @@ def find_the_cheese(array)
   # the array below is here to help
   # cheese_types = ["cheddar", "gouda", "camembert"]
  
-  array.select do |i | 
-  if cheese.include?("cheese")
+  array.select do |i| 
+  if cheese_types.include?(i)
     return i 
-    
-    potentially_cheesy_items.find do |maybe_cheese|
-    cheeses.include?(maybe_cheese)
-  end 
+    end 
   end 
   
 end

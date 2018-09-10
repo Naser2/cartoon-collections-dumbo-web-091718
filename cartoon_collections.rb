@@ -5,18 +5,24 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(planeteer) 
-  # Your code 
-  new_planetteer = []
-  planeteer.collect do |planet|new_planetteer<< planet.capitalize 
+  # new_planetteer = [] 
+  planeteer.map do |planet| 
+   planet.capitalize + "!"
 end 
-new_planetteer
+# new_planetteer
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(array)
+ array.any? { |i| i.length > 4 }
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  array.find do |i| 
+    if cheese_types.include?(i)
+      return i
+    else 
+     puts %w(found only ham, cellphone, and computer)
+    end 
+  end 
 end
